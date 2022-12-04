@@ -133,7 +133,6 @@ figure {
   color: var(--description-color);
   display: flex;
   gap: 30px;
-  justify-content: center;
   margin-bottom: 94px;
 }
 .what-we-do-list span {
@@ -149,18 +148,14 @@ figure {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.what-we-do-gallery {
+.what-we-do-gallery,
+.our-team-photos,
+.projects-gallery {
   list-style-type: none;
   display: flex;
   gap: 30px;
-  justify-content: center;
 }
 /* Our team */
-.our-team-photos {
-  list-style-type: none;
-  display: flex;
-  gap: 30px;
-}
 .our-team-photos h3 {
   font-weight: 500;
   font-size: 16px;
@@ -225,6 +220,7 @@ figure {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
 .buttons-list button {
   background: var(--section-light-color);
@@ -235,7 +231,7 @@ figure {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 6px 22px 6px 22px;
+  padding: 6px 22px;
   cursor: pointer;
 }
 .buttons-list button:hover,
@@ -247,15 +243,19 @@ figure {
   border-radius: 4px;
 }
 .projects-gallery {
-  list-style-type: none;
+  flex-wrap: wrap;
 }
-.projects-gallery figure {
-  border: 1px solid var(--projects-gallery-color);
+.project-card {
+  border-bottom: 1px solid var(--projects-gallery-color);
+}
+.project-card figcaption {
+  padding: 20px 24px;
 }
 .projects-gallery h4 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .projects-gallery span {
   font-size: 16px;
