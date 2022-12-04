@@ -100,6 +100,13 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--brand-color-white);
+  margin-bottom: 30px;
+}
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px calc((1200px - 696px) / 2);
 }
 .main-button {
   background: var(--selection-color);
