@@ -27,6 +27,8 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .link {
   text-decoration: none;
@@ -119,15 +121,20 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--brand-color-white);
-  padding: 10px 41px 10px 41px;
+  padding: 10px 41px;
   cursor: pointer;
 }
+/* What we do */
 .what-we-do-list {
   list-style-type: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--description-color);
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 94px;
 }
 .what-we-do-list span {
   font-weight: 700;
@@ -140,9 +147,13 @@ ul {
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 .what-we-do-gallery {
   list-style-type: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 .our-team-photos {
   list-style-type: none;
