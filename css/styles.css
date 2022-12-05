@@ -248,6 +248,7 @@ figure {
 }
 .project-card {
   border-bottom: 1px solid var(--projects-gallery-color);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .project-card figcaption {
   padding: 20px 24px;
