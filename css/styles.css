@@ -39,8 +39,9 @@ figure {
 .header-box {
   display: flex;
   align-items: center;
-  height: 80px;
   justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 .left-nav-box {
   display: flex;
